@@ -1,4 +1,4 @@
-# Line-Follower-using-Q-Learning-Simulation
+# Line-Follower-using-Q-Learning
 
 # Description
 
