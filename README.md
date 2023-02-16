@@ -12,10 +12,8 @@ The requirements.txt file for installation of some packages this project using:
 
 # Videos
     Simulation Video :
-    
-    ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/90126322/219375879-1573d495-8052-48a8-b3ad-ac8b72ce6384.gif)
+      ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/90126322/219375994-3a942717-e955-4257-aa61-e6769347a502.gif)
 
-    
     Demonstration Robot in Real-World :
     
     https://youtu.be/iSxI89MV6LQ
