@@ -15,7 +15,7 @@ The requirements.txt file for installation of some packages this project using:
   ![animate_simulation](https://user-images.githubusercontent.com/90126322/219376656-a5a6033f-1dbb-4afe-ae10-b753c2bb2466.gif)
 
 
-    Demonstration Robot in Real-World :
-    
-    https://youtu.be/iSxI89MV6LQ
+    Demonstration Robot in Real-World using Jetson-Nano :
+  ![ezgif com-video-to-gif(1)](https://user-images.githubusercontent.com/90126322/219380977-fce36e4a-49b8-4ff9-8f52-dfa2f12ae330.gif)
+
 
