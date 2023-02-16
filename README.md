@@ -12,7 +12,7 @@ The requirements.txt file for installation of some packages this project using:
 
 # Videos
     Simulation Video :
-  ![ezgif com-video-to-gif(2)](https://user-images.githubusercontent.com/90126322/219383180-47eb70ba-f8ad-4424-ab5c-274ea07d8fed.gif
+  ![ezgif com-video-to-gif(2)](https://user-images.githubusercontent.com/90126322/219383180-47eb70ba-f8ad-4424-ab5c-274ea07d8fed.gif)
 
 
     Demonstration Robot in Real-World using Jetson-Nano :
