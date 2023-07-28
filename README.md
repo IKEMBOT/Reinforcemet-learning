@@ -5,7 +5,7 @@
 
 ## Description
 
-This project focuses on implementing the Q-learning (Reinforcement Learning) algorithm for a line-following robot. The system comprises three main components: the Simulation Environment, the Real-World Environment, and the Image Processor.
+This project focuses on implementing the Q-learning (Reinforcement Learning) algorithm for a line-following robot. The system comprises three main components: the Simulation Environment, the Real-World Environment, and the Image Processing.
 
 ### Simulation Environment
 The **Simulation Environment** is used to train the robot to follow the line based on the Q-learning method. It involves running simulations to enable the robot to learn and optimize its path following the line.
@@ -13,8 +13,8 @@ The **Simulation Environment** is used to train the robot to follow the line bas
 ### Real-World Environment
 The **Real-World Environment** is utilized to execute the final results after simulation. The trained robot is deployed in the real world to demonstrate its line-following capabilities.
 
-### Image Processor
-The **Image Processor** takes images from a camera (Logitech C270) in the real-world case and uses a camera provided by the PyBullet library in the simulation case. The images are resized into 32x32 images and then converted into binary images, specifically filtering for the red tape line. Each image serves as an observation, defining the state, and the Q-learning algorithm generates probability values for each possible action. After multiple iterations, the probability space becomes optimized to enable the robot to follow the line effectively.
+### Image Processing
+The **Image Processing** takes images from a camera (Logitech C270) in the real-world case and uses a camera provided by the PyBullet library in the simulation case. The images are resized into 32x32 images and then converted into binary images, specifically filtering for the red tape line. Each image serves as an observation, defining the state, and the Q-learning algorithm generates probability values for each possible action. After multiple iterations, the probability space becomes optimized to enable the robot to follow the line effectively.
 
 ## Requirements
 
