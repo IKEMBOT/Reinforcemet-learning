@@ -1,21 +1,40 @@
-# Line-Follower-using-Q-Learning
+# REINFORCEMENT LEARNING PROJECT
+## Line Follower using Q-Learning
 
-# Description
+![Line Follower](https://user-images.githubusercontent.com/90126322/219383180-47eb70ba-f8ad-4424-ab5c-274ea07d8fed.gif)
 
-The main of the project is Q-learning (Reinforced Learning) algorithm. There are three main components to the system: The Simulation Environment, the Real-World Environment, and the Image Processor. The Simulation environment is used to robot simulation to train the robot was able to follow the line based on Q-learning Method. The Real-World Environment to execute the final result after simulation. and The Image Processor takes in images camera(Logitech C270) for the real-world case and the simulation case uses a camera provided by pybullet function, resizes them into a 32x32 image, and then converts them into a binary image that filters specifically for the red tape line. Each image is an observation to define the state through the Q-Learning algorithm to generate probability values for each possible action. lastly, after many iterations, the probability space becomes optimized to follow the line.
+## Description
 
-# Requirement
-The requirements.txt file for installation of some packages this project using:
+This project focuses on implementing the Q-learning (Reinforcement Learning) algorithm for a line-following robot. The system comprises three main components: the Simulation Environment, the Real-World Environment, and the Image Processor.
+
+### Simulation Environment
+The **Simulation Environment** is used to train the robot to follow the line based on the Q-learning method. It involves running simulations to enable the robot to learn and optimize its path following the line.
+
+### Real-World Environment
+The **Real-World Environment** is utilized to execute the final results after simulation. The trained robot is deployed in the real world to demonstrate its line-following capabilities.
+
+### Image Processor
+The **Image Processor** takes images from a camera (Logitech C270) in the real-world case and uses a camera provided by the PyBullet library in the simulation case. The images are resized into 32x32 images and then converted into binary images, specifically filtering for the red tape line. Each image serves as an observation, defining the state, and the Q-learning algorithm generates probability values for each possible action. After multiple iterations, the probability space becomes optimized to enable the robot to follow the line effectively.
+
+## Requirements
+
+The project requires the installation of some packages, which are specified in the `requirements.txt` file. To install these packages, run the following command:
 
     pip install -r requirements.txt
 
 
-# Videos
-    Simulation Video :
-  ![ezgif com-video-to-gif(2)](https://user-images.githubusercontent.com/90126322/219383180-47eb70ba-f8ad-4424-ab5c-274ea07d8fed.gif)
 
+## Videos
 
-    Demonstration Robot in Real-World using Jetson-Nano :
-  ![ezgif com-video-to-gif(1)](https://user-images.githubusercontent.com/90126322/219380977-fce36e4a-49b8-4ff9-8f52-dfa2f12ae330.gif)
+### Simulation Video:
+Below is a video demonstrating the line-following behavior in the simulation environment.
+
+![Simulation Video](https://user-images.githubusercontent.com/90126322/219383180-47eb70ba-f8ad-4424-ab5c-274ea07d8fed.gif)
+
+### Demonstration Robot in Real-World using Jetson-Nano:
+Below is a video showing the robot's line-following performance in the real world using a Jetson-Nano board.
+
+![Real-World Video](https://user-images.githubusercontent.com/90126322/219380977-fce36e4a-49b8-4ff9-8f52-dfa2f12ae330.gif)
+
 
 
