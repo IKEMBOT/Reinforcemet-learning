@@ -1,4 +1,3 @@
-# REINFORCEMENT LEARNING PROJECT
 ## Line Follower using Q-Learning
 
 ![Line Follower](https://user-images.githubusercontent.com/90126322/219383180-47eb70ba-f8ad-4424-ab5c-274ea07d8fed.gif)
